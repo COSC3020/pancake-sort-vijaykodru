@@ -11,9 +11,8 @@ function pancakeSort(array) {
         let max = maxindex(array, i);
         if (max != i - 1){
             flip(array, max + 1);
-            flip(array, i);
         }
-        
+        flip(array, i);
     }
     return array;
 }
