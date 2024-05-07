@@ -38,8 +38,8 @@ In terms of the number of flips, the runtime analysis for the code is $\Theta(n)
 
 References:
 
-https://www.geeksforgeeks.org/pancake-sorting/
-pancake-sort-kbuss26
-pancake-sort-IshitaPatel18
-pancake-sort-Greg-Saul
-
+https://www.geeksforgeeks.org/pancake-sorting/\
+pancake-sort-kbuss26\
+pancake-sort-IshitaPatel18\
+pancake-sort-Greg-Saul\
+ChatGPT for optimizing my code

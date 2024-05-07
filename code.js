@@ -1,11 +1,7 @@
 function flip(array, n) {
-    if(n > array.length){
-        n = array.length;
-    }
-    let firstflip = array.slice(0, n);
-    let bottom = array.slice(n, array.length) 
-    firstflip.reverse();
-    array = firstflip.concat(bottom);    
+    let firstFlip = array.slice(0, n).reverse();
+    let bottom = array.slice(n);
+    array = firstFlip.concat(bottom);
     return array;
 }
 
