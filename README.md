@@ -1,3 +1,4 @@
+[![Review Assignment Due Date](https://classroom.github.com/assets/deadline-readme-button-24ddc0f5d75046c5622901739e7c5dd533143b0c8e959d652212380cedb1ea36.svg)](https://classroom.github.com/a/-m0g1A8z)
 # Pancake Sort
 
 There is an abstract data type (ADT) called a *pancake array*, which provides
@@ -29,3 +30,16 @@ What is the asymptotic runtime ($\Theta$) of your algorithm in terms of the
 number of comparisons? What is it in terms of the number of flips? Add your
 answer to this markdown file.
 
+
+In terms of Comparisons, I think that the runtime analysis for the written code is $\Theta(n^2)$. This is because the two for loops used, one in the maxindex function and the other in the pancakesort function. Both of them have a runtime of n because they iterate over n elements in the array and doing it for n times for the function to stop resulting in the runtime complexity of n * n = $\Theta(n^2)$
+
+In terms of the number of flips, the runtime analysis for the code is $\Theta(n)$. This is because of the two calls to the function flip(). The first flip is for the having the maximum element to be set to the first element in the array and the second flip is to correctly place the top element to its place. This results in the time of 2n, because of 2 flips for n elements. And finally because we can neglect the constants for asymptotical analysis the runtime analysis for the code is $\Theta(n)$ 
+
+
+References:
+
+https://www.geeksforgeeks.org/pancake-sorting/\
+pancake-sort-kbuss26\
+pancake-sort-IshitaPatel18\
+pancake-sort-Greg-Saul\
+ChatGPT for optimizing my code
