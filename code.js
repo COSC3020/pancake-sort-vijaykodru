@@ -10,8 +10,8 @@ function pancakeSort(array) {
     for (let i = array.length; i > 0; i--) {
         let max = maxindex(array, i);
         if (max !== i - 1){
-            flip(array, max + 1);
-            flip(array, i);
+            array = flip(array, max + 1);
+            array = flip(array, i);
         }
     }
     return array;
