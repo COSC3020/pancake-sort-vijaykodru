@@ -35,3 +35,11 @@ In terms of Comparisons, I think that the runtime analysis for the written code 
 
 In terms of the number of flips, the runtime analysis for the code is $\Theta(n)$. This is because of the two calls to the function flip(). The first flip is for the having the maximum element to be set to the first element in the array and the second flip is to correctly place the top element to its place. This results in the time of 2n, because of 2 flips for n elements. And finally because we can neglect the constants for asymptotical analysis the runtime analysis for the code is $\Theta(n)$ 
 
+
+References:
+
+https://www.geeksforgeeks.org/pancake-sorting/
+pancake-sort-kbuss26
+pancake-sort-IshitaPatel18
+pancake-sort-Greg-Saul
+
